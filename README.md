@@ -7,3 +7,9 @@
 |-----------|-------------|----------------------------------------|
 | [@sycap01](https://github.com/sycap01) | [@xxhyxxnjxn](https://github.com/xxhyxxnjxn) | [@h1un](https://github.com/h1un)|
 | - 개발서적 학습/실습<br/> - spring, 금융업무관련 지식습득   | - 공식문서 읽기 및 실습<br/>    - spring security, jwt, oauth2          | - x 닷컴 클론코딩<br/> - react 공식문서 읽기(hook) |
+
+
+# 스터디 일지
+
+- 2024년 07월 24일
+- 2024년 07월 31일
