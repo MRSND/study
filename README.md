@@ -11,5 +11,6 @@
 
 # 스터디 일지
 
-- 2024년 07월 24일
-- 2024년 07월 31일
+- [2024년 07월 10일](https://github.com/MRSND/study/wiki/2024%E2%80%9007%E2%80%9010)
+- [2024년 07월 24일](https://github.com/MRSND/study/wiki/2024%E2%80%9007%E2%80%9024)
+- [2024년 07월 31일](https://github.com/MRSND/study/wiki/2024%E2%80%9007%E2%80%9031)
