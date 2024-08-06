@@ -1,0 +1,47 @@
+# This workflow will upload a Python Package using Twine when a release is created
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python#publishing-to-package-registries
+
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
+name: Upload Python Package
+
+on:
+  schedule:
+    # 실제 스케쥴 작업이 시작될 cron을 등록하면 됩니다.
+    # 크론은 https://crontab.guru/ 여기서 확인하면 좋을 것 같습니다.
+    # 이 크론은 매주 수요일 22시에 실행됩니다.
+    - cron: '0 22 * * 3'
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.x'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install build
+    - name: Run update-readme.py # 2) update-readme.py 실행
+      run: |
+        python update-readme.py
+    - name: Commit changes # 3) 추가된 파일 commit
+      run: |
+        git config user.name 'xxhyxxnjxn' # 유저명
+        git config user.email 'hyunjin077@naver.com' # 유저 이메일
+        git add -A
+        git commit -am "auto-update README.md" # 커밋 메시지
+    - name: Push changes # 4) master에 푸시
+      run: |
+        git push
