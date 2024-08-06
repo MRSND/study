@@ -41,4 +41,4 @@ jobs:
         git commit -am "auto-update README.md" # 커밋 메시지
     - name: Push changes # 4) master에 푸시
       run: |
-        git push
+        git push origin main
