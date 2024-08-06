@@ -13,7 +13,7 @@ on: # jobs가 실행되어야 하는 상황 정의
     branches: [ main ] # master 브랜치에 push가 발생했을 때
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   deploy:
