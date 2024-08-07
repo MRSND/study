@@ -12,8 +12,8 @@ on:
   schedule:
     # 실제 스케쥴 작업이 시작될 cron을 등록하면 됩니다.
     # 크론은 https://crontab.guru/ 여기서 확인하면 좋을 것 같습니다.
-    # 이 크론은 매주 수요일 21시 30분에 실행됩니다.
-    - cron: '30 21 * * 3'
+    # 이 크론은 매주 수요일 21시 30분에 실행됩니다. cron은 UTC 기준이라 -9시간 해줘야함
+    - cron: '0 13 * * 3'
 
 permissions:
   contents: write
