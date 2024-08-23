@@ -1,6 +1,6 @@
 from datetime import datetime
 
-readme_file_path = "./study/README.md"
+readme_file_path = "./README.md"
 
 # 현재 날짜 정보 및 위키 링크 생성
 today_date_str = datetime.today().strftime('%Y년 %m월 %d일')
