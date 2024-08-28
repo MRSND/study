@@ -12,6 +12,8 @@
 | - 개발서적 학습/실습<br/> - spring, 금융업무관련 지식습득   | - 공식문서 읽기 및 실습<br/>    - spring security, jwt, oauth2          | - React 공식문서 읽기<br/> - x 닷컴 클론코딩 |
  
 ## 스터디 일지
+[2024년 08월 28일](https://github.com/MRSND/study/wiki/2024%E2%80%9008%E2%80%9028)
+
  
  [2024년 07월 10일](https://github.com/MRSND/study/wiki/2024%E2%80%9007%E2%80%9010)
  
